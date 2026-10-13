@@ -1,0 +1,8 @@
+streamlit>=1.40.0
+yt-dlp>=2025.1.1
+faster-whisper>=1.1.1
+pydub>=0.25.1
+openai>=1.59.0
+# Windows 下 CTranslate2(faster-whisper) GPU 推理所需的 CUDA 运行库 DLL
+nvidia-cublas-cu12
+nvidia-cudnn-cu12>=9.7.0

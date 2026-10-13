@@ -1,0 +1,16 @@
+# 用户数据：处理过的音频、历史库、转录缓存（隐私数据，不入库）
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Streamlit 凭据（config.toml 保留）
+.streamlit/credentials.toml
+
+# OS / IDE
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
